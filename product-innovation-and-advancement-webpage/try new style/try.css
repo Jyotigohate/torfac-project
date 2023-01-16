@@ -1,0 +1,24 @@
+.nav {
+    display: flex;
+}
+.nav-list {
+    background: yellow;
+    cursor: pointer;
+    border: 0;
+    flex: 0 0 42px;
+    transition: 0.4s;
+}
+.nav-list-items {
+    display: block;
+    height: 30px;
+    width: 100%;
+    border-radius: 15px;
+    background: #383142;
+    transition: 0.4s;
+}
+.nav-list:hover {
+    flex: 0 0 80px;
+}
+.nav-list-items:hover {
+    background: #8f44fd;
+}
