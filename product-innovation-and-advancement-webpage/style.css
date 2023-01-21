@@ -66,9 +66,13 @@ p{
     gap: 30px;
 }
 .nav-list-items{
-    color: white;
+    color: rgb(155, 155, 155);
+    font-size: larger;
     text-decoration: none;
     padding: 8px;
+}
+.nav-list-items:hover , .active{
+    color: white;
 }
 .heading{
     height: 300px;
@@ -150,7 +154,9 @@ justify-content: space-evenly;
     grid-area: media;
     margin-left: 10px;
     padding: 5px;
-    font-size:xx-large;
+}
+.m-icon{
+    font-size: x-large;
 }
 .links{
     margin-top: 20px;
@@ -176,10 +182,20 @@ justify-content: space-evenly;
 .footer-input{
     height: 50px;
     margin-bottom: 20px;
-    padding: 5px 50px 5px 20px;
+    padding: 5px 30px 5px 20px;
     border-radius: 28px;
     font-weight: 700;
     font-size: larger;
+}
+.footer-input-btn{
+    padding: 5px 20px;
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+.footer-input-btn:hover{
+    background-color: rgb(80, 79, 79);
+
 }
 .copyright{
     background-color: rgb(15, 15, 15);
