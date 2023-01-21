@@ -28,7 +28,6 @@ h4{
     color: white;
 }
 p{
-    /* color: #333; */
     font-size: 18px;
     font-weight: 100;
     line-height: 30px;
@@ -46,7 +45,7 @@ p{
     background-color: rgb(206, 206, 206);
 }
 
-/* page style */
+/* component style */
 .header{
     background-image: url("./assets/hero_bg.jpg");
     background-position: center;
@@ -65,7 +64,6 @@ p{
     display: flex;
     list-style: none;
     gap: 30px;
-
 }
 .nav-list-items{
     color: white;
@@ -80,7 +78,6 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 80px; */
 }
 .solution-box{
     padding: 0 150px;
@@ -101,12 +98,6 @@ p{
     gap:80px;
 }
 .under-line{
-    /* border: black 2px solid;
-    border-style: groove;
-    width: 150px;
-    height: 2px;
-    position: relative;
-    left: 45%; */
     width: 80px;
     height: 4px;
     background: #333;
@@ -115,7 +106,6 @@ p{
 .benefit-img{
     width: 44%;
     height: 40%;
-   
 }
 .QNA{
     display: flex;
