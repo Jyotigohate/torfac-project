@@ -1,112 +1,154 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 /* utils */
-h1{
-    font-size: 5rem;
-    margin-bottom: 30px;
-    margin-left: 0;
+.text-center {
+  text-align: center;
 }
-span{
-    font-size: 1.5em;
-    margin:20px 0;
+h1 {
+  font-size: 5rem;
+  margin-bottom: 30px;
+  margin-left: 0;
 }
-p{
-    margin: 30px 0;
-    font-size: 1.5em;
-    
+span {
+  font-size: 1.5em;
+  margin: 20px 0;
 }
-header p{
-    color: white;
+p {
+  margin: 30px 0;
+  font-size: 1.5em;
 }
-.btn{
-    border-style: none;
-    border-radius: 28px;
-    font-weight: 700;
-    font-size: larger;
-    height: 50px;
-    padding: 5px 20px;
-    cursor: pointer;
-    background-color: rgb(250, 246, 246);
-    color: rgb(0, 0, 0);
+header p {
+  color: white;
 }
-.btn:hover{
-    background-color: rgb(253, 205, 84);
+.btn {
+  border-style: none;
+  border-radius: 28px;
+  font-weight: 700;
+  font-size: larger;
+  height: 50px;
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: rgb(211, 206, 206);
+  color: rgb(0, 0, 0);
 }
-    /* ....... */
-.header{
-    padding: 40px 80px;
-    background-image: url("./assets/images/banner1.png");
-    background-position: center;
-    background-size:cover;
-    width: 100%;
-    height: 760px;
+.btn:hover {
+  background-color: rgb(253, 205, 84);
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-    width: 15%;
-    height: 15%;
-}
-.nav-list{
-    display: flex;
-    list-style: none;
-    align-self: center;
-}
-.nav-list-items{
-    margin: 10px;
-    padding: 5px;
-    text-decoration: none;
-    font-size: x-large;
-    color: white;
-}
-.nav-list-items:hover , .active{
-    color: black;
-
-}
-.header-content{
-    margin: 50px 0;
-    display: flex;
-    justify-content: space-between;
-    gap:300px;
-}
-.content-box{
-    place-self: center;
-}
-.header-img{
-    width: 80%;
-}
-.main{
-    padding: 20px 80px;
-}
-.design-heading{
+.design-heading , .request-heading , .clients-heading{
     text-align: center;
+    padding: 40px;
 }
-.background-pill-1{
-    background-image: url("./assets/images/croo.png");
-    background-repeat: no-repeat;
-    
+/* ....... */
+.header {
+  padding: 40px 80px;
+  background-image: url("./assets/images/banner1.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 760px;
 }
-.background-pill-2{
-    background-image: url("./assets/images/croo1.png");
-    background-repeat: no-repeat;
-    
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
-.design-content{
-    display: flex;
-    justify-content: space-between;
-    /* margin: 90px; */
-    padding: 100px 140px;
+.logo {
+  width: 15%;
+  height: 15%;
 }
-.design-content-box{
-align-self: center;
+.nav-list {
+  display: flex;
+  list-style: none;
+  align-self: center;
 }
-.design-img{
-border: 15px rgb(253, 205, 84) solid;
-border-radius: 50%;
+.nav-list-items {
+  margin: 10px;
+  padding: 5px;
+  text-decoration: none;
+  font-size: x-large;
+  color: white;
+}
+.nav-list-items:hover,
+.active {
+  color: black;
+}
+.header-content {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+}
+.content-box {
+  place-self: center;
+}
+.header-btn {
+  background-color: white;
+}
+.header-img {
+  width: 80%;
+}
+.main {
+  padding: 20px 80px;
+}
+.background-pill-1 {
+  background-image: url("./assets/images/croo.png");
+  background-repeat: no-repeat;
+}
+.background-pill-2 {
+  background-image: url("./assets/images/croo1.png");
+  background-repeat: no-repeat;
+}
+.design-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 140px;
+  gap: 190px;
+}
+.design-content-box {
+  align-self: center;
+}
+.design-btn {
+  margin: 0 40px;
+}
+.design-img {
+  border: 15px rgb(253, 205, 84) solid;
+  border-radius: 50%;
+}
+.img-text {
+  color: rgb(253, 205, 84);
+  position: relative;
+  top: -110px;
+  left: 100px;
+}
+.contact {
+  padding: 80px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .contact-form {
+} */
+.contact-img {
+  width: 80%;
+}
+.clients {
+  display: flex;
+  justify-content: space-around;
+}
+.about-clients {
+  padding: 70px;
+  align-self: center;
+}
+.client-name {
+  color: rgb(253, 205, 84);
+  font-size: xx-large;
+  font-weight: bold;
+}
+.call-now {
+  padding: 20px;
+  background-image: url("./assets/images/cop.jpg");
+  display: flex;
+  justify-content: space-around;
 }
