@@ -11,7 +11,12 @@
 h1 {
   font-size: 5rem;
   margin-bottom: 30px;
-  margin-left: 0;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 2rem;
 }
 span {
   font-size: 1.5em;
@@ -19,13 +24,14 @@ span {
 }
 p {
   margin: 30px 0;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  line-height: 1.5em;
 }
 header p {
   color: white;
 }
 .btn {
-  border-style: none;
+  border: rgb(253, 205, 84) solid 3px;
   border-radius: 28px;
   font-weight: 700;
   font-size: larger;
@@ -37,12 +43,14 @@ header p {
 }
 .btn:hover {
   background-color: rgb(253, 205, 84);
+  border: black solid 3px;
+  color: black;
 }
 .design-heading , .request-heading , .clients-heading{
     text-align: center;
     padding: 40px;
 }
-/* ....... */
+/* components............................. */
 .header {
   padding: 40px 80px;
   background-image: url("./assets/images/banner1.png");
@@ -65,10 +73,10 @@ header p {
   align-self: center;
 }
 .nav-list-items {
-  margin: 10px;
+  margin: 15px;
   padding: 5px;
   text-decoration: none;
-  font-size: x-large;
+  font-size: 1.3em;
   color: white;
 }
 .nav-list-items:hover,
@@ -112,6 +120,8 @@ header p {
 }
 .design-btn {
   margin: 0 40px;
+  background-color: black;
+  color: white;
 }
 .design-img {
   border: 15px rgb(253, 205, 84) solid;
@@ -126,10 +136,30 @@ header p {
 .contact {
   padding: 80px 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
-/* .contact-form {
-} */
+.contact-form {
+  margin-right: 100px;
+  padding: 80px;
+  width:500px ;
+  height: 500px;
+   border: solid 15px  rgb(253, 205, 84);;
+    border-radius: 45px;
+
+}
+.input-data{
+  margin-bottom: 15px;
+  height:40px ;
+ width:300px ;
+ border: none;
+  border-bottom: solid 2px grey;
+  font-size: large;
+  font-weight:600;
+  color: gray;
+}
+.send-btn{
+  margin: 20px 100px ;
+}
 .contact-img {
   width: 80%;
 }
